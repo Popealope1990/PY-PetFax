@@ -1,0 +1,43 @@
+body {
+    color: white;
+    background-color: rgb(190, 125, 4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    color: rgb(111, 250, 56);
+}
+
+a:hover {
+    color: rgb(4, 204, 240);
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.callout {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: chartreuse;
+    align-items: center;
+}
+
+.pets-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 20px;
+}
